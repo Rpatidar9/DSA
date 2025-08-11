@@ -30,11 +30,11 @@
 function reverseString3(str) {
     var arr = str.split(' ');
     var revString = '';
-    for(let i =0;i<arr.length;i++){
+    for (let i = 0; i < arr.length; i++) {
         var a = arr[i].split('')
         var rev = '';
-        for(let j=a.length-1;j>=0;j--){
-rev+= a[j];
+        for (let j = a.length - 1; j >= 0; j--) {
+            rev += a[j];
         }
         revString += rev + ' ';
     }
